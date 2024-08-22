@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// vectors.c ################################
 struct Vector2
 {
     double x;
@@ -71,8 +70,6 @@ void PrintVector(struct Vector2 v)
     printf(", %lf", v.y);
     printf(")\n");
 }
-
-// main.c ###################################
 
 int main()
 {
