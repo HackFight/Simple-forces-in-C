@@ -101,4 +101,8 @@ int main()
 
     dResult = MagnitudeVector2(v1);
     printf("Magnitude of v1: %lf\n", dResult);
+
+    char c;
+    while (c = getc(stdin) != '\n')
+        ;
 }
